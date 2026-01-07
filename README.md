@@ -4,7 +4,9 @@ delay_cat
 
 A delay cat, for bash script
 
-## why delay_cat
+<br>
+
+## 0. Why delay_cat
 case:
 when we want handle event with common delay
 
@@ -26,7 +28,12 @@ done
 //this may fork too many subshell
 
 
-## use delay_cat
+<br>
+
+## 1. Use delay_cat
+
+USAGE:
+> cat input | delay_cat -d float_sec
 
 
 ```sh
@@ -37,5 +44,14 @@ done
 
 //delay_cat do the common delay  
 //All input lines are delayed by a specified number of seconds.
+
+
+<br>
+
+## 2. Files
+
+- py3 implement
+- perl implement
+- c implement
 
 
